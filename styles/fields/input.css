@@ -98,3 +98,11 @@ input {
         display: none;
     }
 }
+
+@media (width <= 24em) {
+    .address .flex {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
